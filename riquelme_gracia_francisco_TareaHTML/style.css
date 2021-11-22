@@ -1,0 +1,50 @@
+body {
+  background-color: #FEF5ED;
+  text-align: center;
+  color: #006494;
+}
+header {
+  text-align: center;
+}
+h1,
+h2 {
+  margin: 0px;
+}
+
+.nombreYapellidos {
+    padding: 30px 0px;
+}
+/* ----------------------------- //NOTE botones ----------------------------- */
+
+.boton_ini {
+    color: #006494;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #FEF5ED;
+    background: #006494;
+    margin: 0 10px;
+    transition-duration: 600ms;
+}
+
+.boton_ini:hover {
+    border-color: #006494;
+    background: #FEF5ED; 
+    border-width: 4px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------- //NOTE quitar listas -------------------------- */
+a {
+    text-decoration: none;
+    color: #FEF5ED;
+}
+a:hover {
+    color: #006494;
+}
+.indice {
+  list-style-type: none;
+  padding-left: 0%;
+  border: 16px;
+}
+/* -------------------------------------------------------------------------- */
