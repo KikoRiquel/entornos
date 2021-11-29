@@ -1,0 +1,64 @@
+body {
+  background-color: #3d3d3d;
+  text-align: center;
+  color: #f7d794;
+  font-family: 'JetBrains Mono', monospace;
+}
+header {
+  text-align: center;
+}
+h1,
+h2 {
+  margin: 0px;
+}
+
+.nombreYapellidos {
+    padding: 30px 0px;
+}
+/* ----------------------------- //NOTE botones ----------------------------- */
+
+.boton_ini {
+    color: #f7d794;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3d3d3d;
+    background: #f7d794;
+    margin: 0 10px;
+    transition-duration: 600ms;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.boton_ini:hover {
+    border-color: #f7d794;
+    background: #3d3d3d; 
+    border-width: 4px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------- //NOTE quitar listas -------------------------- */
+a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+a:hover {
+    color: #f7d794;
+}
+.indice {
+  list-style-type: none;
+  padding-left: 0%;
+  border: 16px;
+}
+/* -------------------------------------------------------------------------- */
+.yo {
+margin: 0px 5px 5px 0px;
+max-width: 75%;
+height: auto;
+float: left;
+}
+.container {
+  margin: 0cm 5cm;
+}
+.texto {
+  text-justify: auto;
+}
